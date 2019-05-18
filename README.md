@@ -1,1 +1,1 @@
-#Python Environment Settings
+#Environment Settings
