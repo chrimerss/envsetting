@@ -1,0 +1,22 @@
+sub},V
+sub},v
+sub,v
+	\label{fig:${4/(\w+)\.\w+/$1/}},V
+name.ext,v
+snippet	fg "add figure" b,V
+,,v
+snippet	todo "add todo thing" b${1:TODO} '!p import numpy			snip.rv=numpy.array([2,1,3])'endsnippet,V
+0.8,v
+htpb,v
+	% '!p import datetime	snip.rv=datetime.now()' TODO: ${1:TODO},V
+TODO,v
+9,v
+T,v
+\begin{figure}[H]    \centering    \includegraphics[width=\linewidth]{coGAN}    \caption{CoGAN}\end{figure},V
+\subsubsection{Generator loss},V
+\subsection{Loss Function},V
+    W(P_{data},P_G)=\max_{D} \{E_{x \sim P_{data}}[D(x)]-E_{x \sim P_{G}}[D(x)]\}-\labmda \sum_{x}max(0,\lvert \bigtriangledown_{x}D(x) \rvert -1)dx,V
+    W(P_{data},P_G)=\max_{D\in 1-Lipschitz}\{E_{x \sim P_{data}}[D(x)]-E_{x \sim P_{G}}[D(x)]\},V
+~,v
+call plug#end()call vundle#begin()Plugin 'SirVer/ultisnips'call vundle#end(),V
+w,v

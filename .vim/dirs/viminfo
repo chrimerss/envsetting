@@ -10,13 +10,70 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/WGAN
+
 # Command Line History (newest to oldest):
-:q
-|2,0,1558145521,,"q"
+:q!
+|2,0,1559441253,,"q!"
+:script
+|2,0,1559441054,,"script"
+:scripts
+|2,0,1559441050,,"scripts"
+:so ~/.vimrc
+|2,0,1559441041,,"so ~/.vimrc"
+:wq
+|2,0,1559439500,,"wq"
 :w
-|2,0,1558145391,,"w"
+|2,0,1559359586,,"w"
+:LLPStartPreview
+|2,0,1559358747,,"LLPStartPreview"
+:57
+|2,0,1559310754,,"57"
+:PLLStartPreview
+|2,0,1559310717,,"PLLStartPreview"
+:echo g:loaded_vim_latex_preview
+|2,0,1559309095,,"echo g:loaded_vim_latex_preview"
+:echo g:loaded_live_latex_preview
+|2,0,1559309072,,"echo g:loaded_live_latex_preview"
+:call ~/.vim/plugged/vim-latex-live-preview/plugin/latexlivepreview.vim
+|2,0,1559308935,,"call ~/.vim/plugged/vim-latex-live-preview/plugin/latexlivepreview.vim"
+:call
+|2,0,1559308873,,"call"
+:source ~/.vim/plugged/fisa-vim-colorscheme/colors/fisa.vim
+|2,0,1559308057,,"source ~/.vim/plugged/fisa-vim-colorscheme/colors/fisa.vim"
+:source ~/.vim/plugged/fisa-vim-colorscheme
+|2,0,1559308005,,"source ~/.vim/plugged/fisa-vim-colorscheme"
+:fisa
+|2,0,1559307920,,"fisa"
+:set runtimepath?
+|2,0,1559307684,,"set runtimepath?"
+:BundleInstall!
+|2,0,1559307629,,"BundleInstall!"
+:q
+|2,0,1559307205,,"q"
+:PlugInstall
+|2,0,1559307186,,"PlugInstall"
+:210
+|2,0,1559307157,,"210"
+:492
+|2,0,1559140374,,"492"
+:UltiSnips
+|2,0,1559140357,,"UltiSnips"
+::PPLStartPreview
+|2,0,1559042485,,":PPLStartPreview"
+:119
+|2,0,1559042107,,"119"
+:471
+|2,0,1559042082,,"471"
 
 # Search String History (newest to oldest):
+?/WGAN
+|2,1,1559360448,47,"WGAN"
+?/fisa
+|2,1,1559308161,47,"fisa"
+?/latex
+|2,1,1559307300,47,"latex"
 
 # Expression History (newest to oldest):
 
@@ -25,163 +82,453 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""0	CHAR	0
+	T
+|3,1,0,0,1,0,1559441027,"T"
+"1	LINE	0
+	\begin{figure}[H]
+	    \centering
+	    \includegraphics[width=\linewidth]{coGAN}
+	    \caption{CoGAN}
+	\end{figure}
+|3,0,1,1,5,0,1559397972,"\\begin{figure}[H]","    \\centering","    \\includegraphics[width=\\linewidth]{coGAN}","    \\caption{CoGAN}","\\end{figure}"
+"2	LINE	0
+	\subsubsection{Generator loss}
+|3,0,2,1,1,0,1559396262,"\\subsubsection{Generator loss}"
+"3	LINE	0
+	\subsection{Loss Function}
+|3,0,3,1,1,0,1559396258,"\\subsection{Loss Function}"
+"4	LINE	0
+	call plug#end()
+	
+	call vundle#begin()
+	
+	Plugin 'SirVer/ultisnips'
+	
+	call vundle#end()
+|3,0,4,1,7,0,1559140709,"call plug#end()","","call vundle#begin()","","Plugin 'SirVer/ultisnips'","","call vundle#end()"
+"5	LINE	0
+	call plug#end()
+	
+	call vundle#begin()
+	
+	Plugin 'SirVer/ultisnips'
+	
+	call vundle#end()
+|3,0,5,1,7,0,1559140681,"call plug#end()","","call vundle#begin()","","Plugin 'SirVer/ultisnips'","","call vundle#end()"
+"-	CHAR	0
+	T
+|3,0,36,0,1,0,1559439490,"T"
 
 # File marks:
-'0  98  0  ~/Documents/Latex/Cover Letter/Letter.tex
-|4,48,98,0,1558145585,"~/Documents/Latex/Cover Letter/Letter.tex"
-'1  116  19  ~/.vimrc
-|4,49,116,19,1558145521,"~/.vimrc"
-'2  34  0  ~/Documents/Python/RainfallCamera/visualisation.py
-|4,50,34,0,1558145250,"~/Documents/Python/RainfallCamera/visualisation.py"
-'3  40  14  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,51,40,14,1558145070,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
+'0  1  0  ~/Documents/Python/RemoteSensingandComputerVision/README.md
+|4,48,1,0,1559441253,"~/Documents/Python/RemoteSensingandComputerVision/README.md"
+'1  2  0  ~/Documents/Python/RemoteSensingandComputerVision/README.md
+|4,49,2,0,1559441032,"~/Documents/Python/RemoteSensingandComputerVision/README.md"
+'2  2  0  ~/Documents/Python/RemoteSensingandComputerVision/README.md
+|4,50,2,0,1559441032,"~/Documents/Python/RemoteSensingandComputerVision/README.md"
+'3  160  17  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,51,160,17,1559439500,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+'4  58  67  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,52,58,67,1559310694,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+'5  57  67  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,53,57,67,1559310694,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+'6  58  68  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,54,58,68,1559310569,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+'7  57  68  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,55,57,68,1559310569,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+'8  60  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,56,60,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+'9  60  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,57,60,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
 
 # Jumplist (newest first):
--'  98  0  ~/Documents/Latex/Cover Letter/Letter.tex
-|4,39,98,0,1558145585,"~/Documents/Latex/Cover Letter/Letter.tex"
--'  1  0  ~/Documents/Latex/Cover Letter/Letter.tex
-|4,39,1,0,1558145553,"~/Documents/Latex/Cover Letter/Letter.tex"
--'  116  19  ~/.vimrc
-|4,39,116,19,1558145521,"~/.vimrc"
--'  116  19  ~/.vimrc
-|4,39,116,19,1558145521,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1558145284,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1558145284,"~/.vimrc"
--'  34  0  ~/Documents/Python/RainfallCamera/visualisation.py
-|4,39,34,0,1558145250,"~/Documents/Python/RainfallCamera/visualisation.py"
--'  34  0  ~/Documents/Python/RainfallCamera/visualisation.py
-|4,39,34,0,1558145250,"~/Documents/Python/RainfallCamera/visualisation.py"
--'  34  0  ~/Documents/Python/RainfallCamera/visualisation.py
-|4,39,34,0,1558145250,"~/Documents/Python/RainfallCamera/visualisation.py"
--'  34  0  ~/Documents/Python/RainfallCamera/visualisation.py
-|4,39,34,0,1558145250,"~/Documents/Python/RainfallCamera/visualisation.py"
--'  12  0  ~/Documents/Python/RainfallCamera/visualisation.py
-|4,39,12,0,1558145112,"~/Documents/Python/RainfallCamera/visualisation.py"
--'  12  0  ~/Documents/Python/RainfallCamera/visualisation.py
-|4,39,12,0,1558145112,"~/Documents/Python/RainfallCamera/visualisation.py"
--'  12  0  ~/Documents/Python/RainfallCamera/visualisation.py
-|4,39,12,0,1558145112,"~/Documents/Python/RainfallCamera/visualisation.py"
--'  12  0  ~/Documents/Python/RainfallCamera/visualisation.py
-|4,39,12,0,1558145112,"~/Documents/Python/RainfallCamera/visualisation.py"
--'  1  0  ~/Documents/Python/RainfallCamera/visualisation.py
-|4,39,1,0,1558145099,"~/Documents/Python/RainfallCamera/visualisation.py"
--'  1  0  ~/Documents/Python/RainfallCamera/visualisation.py
-|4,39,1,0,1558145099,"~/Documents/Python/RainfallCamera/visualisation.py"
--'  1  0  ~/Documents/Python/RainfallCamera/visualisation.py
-|4,39,1,0,1558145099,"~/Documents/Python/RainfallCamera/visualisation.py"
--'  1  0  ~/Documents/Python/RainfallCamera/visualisation.py
-|4,39,1,0,1558145099,"~/Documents/Python/RainfallCamera/visualisation.py"
--'  40  14  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,40,14,1558145070,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  40  14  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,40,14,1558145070,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  40  14  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,40,14,1558145070,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  40  14  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,40,14,1558145070,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  40  14  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,40,14,1558145070,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  40  14  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,40,14,1558145070,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  40  14  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,40,14,1558145070,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  40  14  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,40,14,1558145070,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,1,0,1558145038,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,1,0,1558145038,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,1,0,1558145038,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,1,0,1558145038,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,1,0,1558145038,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,1,0,1558145038,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,1,0,1558145038,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,1,0,1558145038,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  2  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,2,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  5  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,5,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  2  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,2,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  5  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,5,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  2  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,2,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  5  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,5,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  2  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,2,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  5  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,5,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  2  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,2,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  5  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,5,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  2  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,2,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  5  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,5,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  2  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,2,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  5  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,5,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  2  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,2,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  5  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,5,0,1558145037,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  3  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,3,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py
-|4,39,1,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py"
--'  3  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,3,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py
-|4,39,1,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py"
--'  3  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,3,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py
-|4,39,1,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py"
--'  3  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,3,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py
-|4,39,1,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py"
--'  3  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,3,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py
-|4,39,1,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py"
--'  3  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,3,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py
-|4,39,1,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py"
--'  3  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,3,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py
-|4,39,1,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py"
--'  3  0  ~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]
-|4,39,3,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/[Plugins]"
--'  1  0  ~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py
-|4,39,1,0,1558145010,"~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/README.md
+|4,39,1,0,1559441253,"~/Documents/Python/RemoteSensingandComputerVision/README.md"
+-'  2  0  ~/Documents/Python/RemoteSensingandComputerVision/README.md
+|4,39,2,0,1559441032,"~/Documents/Python/RemoteSensingandComputerVision/README.md"
+-'  2  0  ~/Documents/Python/RemoteSensingandComputerVision/README.md
+|4,39,2,0,1559441032,"~/Documents/Python/RemoteSensingandComputerVision/README.md"
+-'  1  1  ~/Documents/Python/RemoteSensingandComputerVision/README.md
+|4,39,1,1,1559441027,"~/Documents/Python/RemoteSensingandComputerVision/README.md"
+-'  7  0  ~/Documents/Python/RemoteSensingandComputerVision/README.md
+|4,39,7,0,1559441025,"~/Documents/Python/RemoteSensingandComputerVision/README.md"
+-'  7  0  ~/Documents/Python/RemoteSensingandComputerVision/README.md
+|4,39,7,0,1559441025,"~/Documents/Python/RemoteSensingandComputerVision/README.md"
+-'  160  17  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,160,17,1559439500,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  160  17  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,160,17,1559439500,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  160  17  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,160,17,1559439500,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  160  17  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,160,17,1559439500,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  71  9  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,71,9,1559360454,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  74  3  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,74,3,1559360454,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  71  9  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,71,9,1559360454,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  74  3  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,74,3,1559360454,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  71  9  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,71,9,1559360454,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  74  3  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,74,3,1559360454,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  71  9  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,71,9,1559360454,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  74  3  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,74,3,1559360454,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  178  13  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,178,13,1559360448,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  178  13  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,178,13,1559360448,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  178  13  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,178,13,1559360448,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  178  13  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,178,13,1559360448,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  37  15  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,37,15,1559359748,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  37  15  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,37,15,1559359748,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  37  15  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,37,15,1559359748,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  37  15  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,37,15,1559359748,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  5  16  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,5,16,1559359684,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  5  16  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,5,16,1559359684,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  5  16  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,5,16,1559359684,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  5  16  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,5,16,1559359684,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  77  44  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,77,44,1559359666,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  77  44  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,77,44,1559359666,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  77  44  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,77,44,1559359666,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  77  44  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,77,44,1559359666,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  62  27  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,62,27,1559358784,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  62  27  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,62,27,1559358784,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  62  27  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,62,27,1559358784,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  62  27  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,62,27,1559358784,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559310705,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559310705,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559310705,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559310705,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  58  67  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,58,67,1559310694,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  57  67  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,57,67,1559310694,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  58  67  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,58,67,1559310694,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  57  67  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,57,67,1559310694,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  58  67  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,58,67,1559310694,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  57  67  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,57,67,1559310694,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  58  67  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,58,67,1559310694,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  57  67  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,57,67,1559310694,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559310631,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559310631,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559310631,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559310631,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  57  68  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,57,68,1559310569,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  57  68  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,57,68,1559310569,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  57  68  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,57,68,1559310569,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  57  68  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,57,68,1559310569,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559310520,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559310520,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559310520,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559310520,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  60  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,60,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  59  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,59,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  59  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,59,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  59  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,59,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  60  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,60,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  59  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,59,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  59  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,59,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  59  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,59,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  60  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,60,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  59  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,59,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  59  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,59,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  59  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,59,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  60  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,60,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  59  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,59,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  59  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,59,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  59  163  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,59,163,1559310470,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559309374,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559309374,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559309374,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  1  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,1,0,1559309374,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  29  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,29,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  29  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,29,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  29  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,29,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  29  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,29,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
+-'  28  0  ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+|4,39,28,0,1559309371,"~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex"
 
 # History of marks within files (newest to oldest):
+
+> ~/Documents/Python/RemoteSensingandComputerVision/README.md
+	*	1559441250	0
+	"	1	0
+	.	2	0
+	+	7	0
+	+	2	0
+
+> ~/Documents/Python/RemoteSensingandComputerVision/MachineLearning/texnote/GAN.tex
+	*	1559439499	0
+	"	160	17
+	^	160	18
+	.	160	16
+	+	77	50
+	+	78	40
+	+	75	16
+	+	73	17
+	+	78	123
+	+	77	131
+	+	77	133
+	+	78	0
+	+	77	44
+	+	5	16
+	+	37	15
+	+	84	0
+	+	83	0
+	+	81	15
+	+	77	29
+	+	77	27
+	+	83	75
+	+	85	109
+	+	85	110
+	+	85	167
+	+	85	183
+	+	85	268
+	+	89	54
+	+	90	0
+	+	92	0
+	+	90	35
+	+	89	35
+	+	87	15
+	+	72	0
+	+	92	23
+	+	96	49
+	+	97	0
+	+	98	0
+	+	99	13
+	+	98	93
+	+	98	95
+	+	98	99
+	+	98	126
+	+	98	128
+	+	98	130
+	+	98	132
+	+	98	141
+	+	101	96
+	+	98	28
+	+	99	16
+	+	101	8
+	+	101	245
+	+	103	0
+	+	104	0
+	+	105	13
+	+	104	91
+	+	104	106
+	+	104	157
+	+	98	147
+	+	101	148
+	+	102	0
+	+	104	15
+	+	106	26
+	+	107	26
+	+	108	16
+	+	109	45
+	+	116	1
+	+	108	10
+	+	110	142
+	+	113	45
+	+	114	35
+	+	116	14
+	+	107	0
+	+	117	28
+	+	118	22
+	+	120	22
+	+	125	54
+	+	126	5
+	+	123	15
+	+	139	47
+	+	140	20
+	+	135	159
+	+	139	13
+	+	142	29
+	+	142	24
+	+	145	20
+	+	146	25
+	+	148	20
+	+	151	45
+	+	151	25
+	+	155	25
+	+	162	0
+	+	156	85
+	+	156	86
+	+	156	98
+	+	156	62
+	+	154	1
+	+	149	16
+	+	151	6
+	+	163	0
+	+	157	0
+	+	159	42
+	+	160	16
+
+> ~/.vimrc
+	*	1559309365	0
+	"	1	0
+	^	121	15
+	.	121	14
+	+	116	17
+	+	117	0
+	+	119	54
+	+	420	46
+	+	122	17
+	+	123	0
+	+	126	0
+	+	126	19
+	+	126	3
+	+	126	0
+	+	127	0
+	+	121	14
+
+> ~/Documents/Python/RadarEnhancement/visualization.py
+	*	1558967299	0
+	"	8	0
+
+> ~/Documents/c++/hello.cpp
+	*	1558879690	0
+	"	1	0
+	^	9	14
+	.	9	12
+	+	3	20
+	+	7	11
+	+	8	0
+	+	10	0
+	+	8	33
+	+	9	44
+	+	5	19
+	+	9	12
+
+> ~/.zshrc
+	*	1558755712	0
+	"	127	35
+	^	127	36
+	.	127	35
+	+	126	38
+	+	127	35
+
+> ~/.zshr
+	*	1558755652	0
+	"	1	0
+
+> ~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py
+	*	1558536135	0
+	"	74	0
+	^	32	15
+	.	32	14
+	+	38	8
+	+	37	43
+	+	39	26
+	+	37	8
+	+	38	14
+	+	37	45
+	+	36	35
+	+	32	14
+
+> ~/envsetting/README.md
+	*	1558147384	0
+	"	1	19
+	^	1	21
+	.	1	19
+	+	1	19
 
 > ~/Documents/Latex/Cover Letter/Letter.tex
 	*	1558145581	0
 	"	98	0
-
-> ~/.vimrc
-	*	1558145520	0
-	"	116	19
-	^	116	20
-	.	116	17
-	+	116	17
 
 > ~/Documents/Python/RainfallCamera/visualisation.py
 	*	1558145249	0
@@ -191,6 +538,3 @@
 	+	34	10
 	+	36	10
 	+	34	0
-
-> ~/Documents/Python/RadarEnhancement/opticalflow/opticalflow.py
-	"	1	0
