@@ -158,7 +158,7 @@ uritemplate==3.0.0
 urllib3==1.25.3
 verif==1.0.0b3
 virtualenv==16.4.3
-vtk==8.1.2
+vtk==9.0.1
 wcwidth==0.1.7
 webencodings==0.5.1
 widgetsnbextension==3.5.1
