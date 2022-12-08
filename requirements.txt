@@ -14,7 +14,7 @@ branca==0.3.1
 bs4==0.0.1
 bullet==2.1.0
 cachetools==3.1.1
-certifi==2019.6.16
+certifi==2022.12.7
 cftime==1.0.3.4
 chardet==3.0.4
 Click==7.0
